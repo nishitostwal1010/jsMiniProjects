@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0rem 3rem 0rem;
+}
+
+#container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.choice {
+    font-size: 5rem;
+    margin: 3rem 0.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(240, 100%, 75%);
+    box-shadow: 3px 3px 5px 1px;
+}
+
+.choice:hover {
+    background-color: hsl(240, 100%, 65%);
+}
+
+.choice:active {
+    background-color: hsl(240, 100%, 55%);
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 2rem;
+}
+
+#resultDisplay {
+    margin: 2rem 0rem;
+    font-size: 3rem;
+}
+
+.score {
+    font-size: 2rem;
+}
+
+.green, #playerScore {
+    color: green;
+}
+
+.red, #computerScore {
+    color: red;
+}
