@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.images {
+    width: 100%;
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+    display: none;
+    height: 50vw;
+}
+
+.displayImg {
+    display: block;
+}
+
+.controls {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
